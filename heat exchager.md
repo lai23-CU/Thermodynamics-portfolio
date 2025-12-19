@@ -28,3 +28,54 @@ Assumptions:
 - No work transfer (Ẇ = 0)
 - Heat transfer occurs only between streams
 
+### System Diagram: Counterflow (Hot Max, Cold Parallel)
+
+        Hot In (T_h,in, ṁ_h = max) ◀───
+        Cold In (T_c,in, ṁ_c = max) ──▶
+              ┌───────────────────────┐
+              │     HEAT EXCHANGER     │
+              │        (CV)            │
+              │   Q̇_h→c (internal)     │
+              └───────────────────────┘
+        Hot Out (T_h,out) ─────────▶
+        Cold Out (T_c,out) ◀───────
+
+Assumptions:
+- Steady-state control volume
+- No work interactions
+- Enhanced temperature gradient along length
+
+### System Diagram: Parallel Flow (Hot Max, Cold Min)
+
+        Hot In (T_h,in, ṁ_h = max)  ──▶
+        Cold In (T_c,in, ṁ_c = min) ──▶
+              ┌───────────────────────┐
+              │     HEAT EXCHANGER     │
+              │        (CV)            │
+              │   Q̇_h→c (internal)     │
+              └───────────────────────┘
+        Hot Out (T_h,out) ─────────▶
+        Cold Out (T_c,out) ───────▶
+
+Assumptions:
+- Cold stream has longer residence time
+- No external heat losses
+- No work transfer
+
+### System Diagram: Counterflow (Hot Max, Cold Min)
+
+        Hot In (T_h,in, ṁ_h = max) ◀───
+        Cold In (T_c,in, ṁ_c = min) ──▶
+              ┌───────────────────────┐
+              │     HEAT EXCHANGER     │
+              │        (CV)            │
+              │   Q̇_h→c (internal)     │
+              └───────────────────────┘
+        Hot Out (T_h,out) ─────────▶
+        Cold Out (T_c,out) ◀───────
+
+Assumptions:
+- Maximum temperature effectiveness
+- Strong thermal gradient maintained
+- Steady-state CV, no work transfer
+

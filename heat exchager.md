@@ -10,3 +10,21 @@ Temperature sensors are placed at both the inlet and outlet of the hot and cold 
 
 Overall, this lab setup serves as a simplified model of real-world heat exchangers commonly used in applications such as power plants, HVAC systems, automotive radiators, and industrial process equipment. The experiment highlights how flow arrangement and system configuration influence heat transfer performance**, making it an effective educational tool for understanding fundamental thermodynamic principles.
 
+## Schematics
+### System Diagram: Parallel Flow (Max Flow Rate)
+
+        Hot In (T_h,in, ṁ_h = max)  ──▶
+        Cold In (T_c,in, ṁ_c = max) ──▶
+              ┌───────────────────────┐
+              │     HEAT EXCHANGER     │
+              │        (CV)            │
+              │   Q̇_h→c (internal)     │
+              └───────────────────────┘
+        Hot Out (T_h,out) ─────────▶
+        Cold Out (T_c,out) ───────▶
+
+Assumptions:
+- Steady-state operation
+- No work transfer (Ẇ = 0)
+- Heat transfer occurs only between streams
+

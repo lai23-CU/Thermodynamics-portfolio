@@ -80,4 +80,6 @@ Assumptions:
 - Steady-state CV, no work transfer
 
 
-These system diagrams illustrate how changes in flow direction and mass flow rates alter the temperature gradients and heat transfer effectiveness of the heat exchange
+These system diagrams illustrate how changes in flow direction and mass flow rates alter the temperature gradients and heat transfer effectiveness of the heat exchanger.
+
+

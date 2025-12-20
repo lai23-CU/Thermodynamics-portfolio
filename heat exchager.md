@@ -262,3 +262,10 @@ We also faced issues with mass flow rate accuracy. Instead of exact measurements
 Finally, achieving true steady-state conditions proved difficult. Since the reservoirs had limited volume, their temperatures changed over time as water was recirculated, resulting in quasi-steady rather than fully steady-state operation.
 
 Despite these challenges, the trends we observed matched expectations from thermodynamic theory and offered valuable insight into how different factors affect heat exchanger performance.
+
+---
+
+## Final Conclusions
+This mini-lab highlighted how the performance of a heat exchanger is primarily influenced by its flow configuration and operating conditions. In every trial, the counterflow setup consistently outperformed the parallel flow design in terms of thermal effectiveness. This was largely due to the counterflow’s ability to maintain a greater temperature difference throughout the exchanger’s length. Changes in mass flow rates also played a significant role, affecting how long fluids stayed in the system and how much heat they could carry—both of which impacted the temperature changes observed.
+
+Even though the system didn’t operate under perfectly ideal conditions, the experimental results closely matched established thermodynamic theories. Any differences from the ideal behavior emphasized the importance of real-world factors like flow restrictions, heat losses, and the difficulty in maintaining a truly steady-state system. Ultimately, this experiment reinforced essential thermodynamic concepts related to heat exchangers and showed that theoretical models must be applied with practical limitations in mind.

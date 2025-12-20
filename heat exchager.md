@@ -208,3 +208,23 @@ Entropy generation arises from **finite temperature differences** between the ho
 
 *These balance equations capture the essential thermodynamic behavior of the heat exchanger and explain how changes in flow configuration and operating conditions influence system performance.*
 
+
+## Qualitative Observations and Experimental Limitations
+Several qualitative observations made during the heat exchanger mini-lab offer valuable context for the recorded temperature data and help clarify why certain results deviated from ideal expectations.
+
+### Trial 3: Parallel Flow, Hot Maximum / Cold Low Flow
+By the end of Trial 3, it was clear that the hot water reservoir had significantly less water remaining compared to the cold reservoir. This outcome aligns with the trial’s setup: the hot-side flow was set to its maximum, while the cold-side was set to its minimum. With more hot water circulating through the system over the course of the experiment, it’s expected that the hot reservoir would be depleted faster than the cold one.
+
+This difference in reservoir volumes also implies that the cold-side water spent more time in the heat exchanger, allowing it to absorb more heat per unit of mass. This is consistent with the temperature data collected during the trial.
+
+---
+
+### Trial 4: Counterflow, Hot Maximum / Cold Low Flow
+In Trial 4, the experiment appeared to be influenced by unintended flow issues. Specifically, the tubing carrying hot water looked to be partially pinched due to bends in the flexible hoses. This likely restricted the hot water flow, even though the flow setting was at maximum.
+
+As a result, the actual conditions during the trial may not have accurately reflected a proper counterflow configuration. The reduced hot-side flow rate could have affected both heat transfer efficiency and the resulting temperature profiles, introducing additional uncertainty into the data. This highlights how sensitive heat exchanger performance is to even minor restrictions in flow, and it underscores the importance of ensuring that water paths remain unobstructed throughout the experiment.
+
+---
+
+*These qualitative observations emphasize the role of practical limitations and experimental setup in influencing heat exchanger performance and help contextualize the quantitative results obtained during the mini-lab.*
+

@@ -1,3 +1,8 @@
+---
+layout: project
+title: "Portfolio assignment"
+---
+
 ## Heat Exchanger Mini Lab Description
 
 This mini-lab explores a liquid-liquid heat exchanger, a system designed to transfer thermal energy from a hot water stream to a cold water stream without allowing the two fluids to mix. The experimental setup consists of two separate water reservoirs: one maintained at a higher temperature and the other kept at a lower temperature. These reservoirs are connected through flexible tubing and a compact heat exchanger unit.

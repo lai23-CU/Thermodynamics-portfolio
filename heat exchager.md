@@ -96,4 +96,13 @@ These system diagrams illustrate how changes in flow direction and mass flow rat
 *Figure 2: Alternate view showing tubing connections and instrumentation.*
 
 
+## Experimental Data Summary
+*Table 1: Summary of measured reservoir temperatures for each heat exchanger configuration tested during the mini-lab.*
+
+| Trial | Flow Configuration | Hot Flow Rate | Cold Flow Rate | Initial Cold Temp (K) | Initial Hot Temp (K) | Time (s) | Final Cold Temp (K) | Final Hot Temp (K) |
+|------:|-------------------|---------------|----------------|-----------------------|----------------------|----------|---------------------|--------------------|
+| 1 | Parallel | Max | Max | 280.0 | 314.35 | 22.95 | 294.0 | 297.3 |
+| 2 | Hot Counterflow, Cold Parallel | Max | Max | 283.0 | 307.15 | 22.18 | 295.1 | 292.4 |
+| 3 | Parallel | Max | Low | 282.6 | 307.25 | 22.51 | 294.2 | 296.2 |
+| 4 | Counterflow | Max | Low | 308.15 | 282.5 | 22.95 | 293.9 | 290.5 |
 

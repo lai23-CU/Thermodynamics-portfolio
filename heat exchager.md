@@ -239,7 +239,7 @@ Some real-world factors also influenced how the system performed. In a few trial
 
 In summary, both flow direction and operating conditions need to be carefully chosen to get the best performance from a heat exchanger. Counterflow setups tend to deliver better efficiency and generate less entropy, while properly balancing flow rates between the fluids can boost heat transfer without causing significant inefficiencies. These findings reflect the same trade-offs engineers face in real-world heat exchanger design and operation.
 
-## Heat Exchanger Effectiveness Discussion (ε)
+## Heat Exchanger Effectiveness Discussion 
 Heat exchanger effectiveness, ε, reflects how efficiently a heat exchanger transfers thermal energy compared to the maximum possible heat transfer under ideal conditions. While this mini-lab didn’t involve calculating effectiveness numerically, we observed some clear trends based on flow configuration and operating conditions.
 
 One of the most consistent patterns was that counterflow setups outperformed parallel flow configurations in terms of effectiveness. In counterflow, the hot and cold fluids move in opposite directions, which helps maintain a larger temperature difference along the entire length of the exchanger. This steady temperature gradient creates a stronger driving force for heat transfer and enables the cold fluid to get closer to the temperature of the incoming hot fluid.

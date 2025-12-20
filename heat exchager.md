@@ -1,6 +1,6 @@
 ---
-layout: project
-title: "Portfolio assignment"
+layout: page
+title: Heat Exchanger Mini Lab
 ---
 
 ## Heat Exchanger Mini Lab Description

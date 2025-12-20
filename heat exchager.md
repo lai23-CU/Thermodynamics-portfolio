@@ -107,18 +107,19 @@ These system diagrams illustrate how changes in flow direction and mass flow rat
 | 4 | Counterflow | Max | Low | 308.15 | 282.5 | 22.95 | 293.9 | 290.5 |
 
 
+
 ## Governing Balance Equations
 
 The heat exchanger is modeled as a **steady-state control volume (CV)** with two fluid streams (hot and cold) exchanging heat internally. No work interactions are present, and mass does not accumulate within the system.
 
 ### Assumptions
-- Steady-state operation
-- Incompressible liquid water
-- Constant specific heat, \( c_p \)
-- No phase change
-- Negligible kinetic and potential energy changes
-- Negligible heat loss to surroundings
-- No work transfer: \( \dot{W} = 0 \)
+- Steady-state operation  
+- Incompressible liquid water  
+- Constant specific heat, cp  
+- No phase change  
+- Negligible kinetic and potential energy changes  
+- Negligible heat loss to surroundings  
+- No work transfer (Ẇ = 0)
 
 ---
 
@@ -126,18 +127,14 @@ The heat exchanger is modeled as a **steady-state control volume (CV)** with two
 
 For each fluid stream (hot and cold), mass is conserved independently:
 
-\[
-\dot{m}_{in} = \dot{m}_{out}
-\]
+ṁ_in = ṁ_out
 
 Thus,
 
-\[
-\dot{m}_h^{in} = \dot{m}_h^{out}, \quad
-\dot{m}_c^{in} = \dot{m}_c^{out}
-\]
+- Hot stream: ṁ_h,in = ṁ_h,out  
+- Cold stream: ṁ_c,in = ṁ_c,out  
 
-Flow rate settings (max vs. low) affect the **magnitude** of \( \dot{m} \), but not the form of the balance.
+Flow rate settings (maximum vs. low) affect the **magnitude** of the mass flow rate, ṁ, but not the form of the mass balance.
 
 ---
 
@@ -145,18 +142,14 @@ Flow rate settings (max vs. low) affect the **magnitude** of \( \dot{m} \), but 
 
 For the overall heat exchanger control volume:
 
-\[
-\sum \dot{m}_{in} h_{in} - \sum \dot{m}_{out} h_{out} + \dot{Q} - \dot{W} = 0
-\]
+Σ(ṁ_in h_in) − Σ(ṁ_out h_out) + Q̇ − Ẇ = 0
 
-With \( \dot{W} = 0 \) and negligible heat loss to the environment, the energy balance reduces to:
+With no work transfer (Ẇ = 0) and negligible heat loss to the environment, the energy balance reduces to:
 
-\[
-\dot{m}_h c_p (T_{h,in} - T_{h,out}) = \dot{m}_c c_p (T_{c,out} - T_{c,in})
-\]
+ṁ_h · cp · (T_h,in − T_h,out) = ṁ_c · cp · (T_c,out − T_c,in)
 
 This equation represents the **fundamental physics of heat exchange**:  
-energy lost by the hot stream equals energy gained by the cold stream.
+the energy lost by the hot stream is equal to the energy gained by the cold stream.
 
 ---
 
@@ -164,24 +157,16 @@ energy lost by the hot stream equals energy gained by the cold stream.
 
 For a steady-state control volume:
 
-\[
-\sum \dot{m}_{out} s_{out} - \sum \dot{m}_{in} s_{in} = \dot{S}_{gen}
-\]
+Σ(ṁ_out s_out) − Σ(ṁ_in s_in) = Ṡ_gen
 
-Since heat transfer occurs internally between the streams and irreversibly:
+Because heat transfer occurs irreversibly between the hot and cold streams:
 
-\[
-\dot{S}_{gen} \ge 0
-\]
+Ṡ_gen ≥ 0
 
-Using incompressible liquid approximation:
+Using the incompressible liquid approximation, entropy generation can be expressed as:
 
-\[
-\dot{S}_{gen} =
-\dot{m}_c c_p \ln\!\left(\frac{T_{c,out}}{T_{c,in}}\right)
-+
-\dot{m}_h c_p \ln\!\left(\frac{T_{h,out}}{T_{h,in}}\right)
-\]
+Ṡ_gen = ṁ_c · cp · ln(T_c,out / T_c,in)  
+    + ṁ_h · cp · ln(T_h,out / T_h,in)
 
 Entropy generation arises from **finite temperature differences** between the hot and cold streams during heat transfer.
 
@@ -189,36 +174,37 @@ Entropy generation arises from **finite temperature differences** between the ho
 
 ## Application to Individual Trials
 
-### Trial 1: Parallel Flow, Max Flow Rates
-- High \( \dot{m}_h \) and \( \dot{m}_c \)
-- Short residence time
-- Lower effectiveness compared to counterflow
-- Moderate entropy generation due to large inlet temperature difference
+### Trial 1: Parallel Flow, Maximum Flow Rates
+- High hot and cold mass flow rates  
+- Short fluid residence time  
+- Lower heat exchanger effectiveness compared to counterflow  
+- Moderate entropy generation due to large inlet temperature difference  
 
 ---
 
-### Trial 2: Hot Counterflow, Cold Parallel (Max Flow Rates)
-- Opposing flow directions maintain a higher temperature gradient
-- Greater heat transfer effectiveness
-- Lower entropy generation compared to parallel flow
-- Cold outlet temperature approaches hot inlet temperature more closely
+### Trial 2: Hot Counterflow, Cold Parallel (Maximum Flow Rates)
+- Opposing flow directions maintain a strong temperature gradient  
+- Higher heat transfer effectiveness than parallel flow  
+- Reduced entropy generation relative to Trial 1  
+- Cold outlet temperature approaches the hot inlet temperature more closely  
 
 ---
 
-### Trial 3: Parallel Flow, Hot Max / Cold Low
-- Reduced cold-side mass flow increases residence time
-- Larger temperature rise per unit mass of cold fluid
-- Energy balance dominated by smaller \( \dot{m}_c \)
-- Increased entropy generation due to imbalance in heat capacity rates
+### Trial 3: Parallel Flow, Hot Maximum / Cold Low Flow
+- Reduced cold-side mass flow increases residence time  
+- Larger temperature rise per unit mass of cold fluid  
+- Energy balance dominated by the smaller cold-side mass flow rate  
+- Increased entropy generation due to mismatch in heat capacity rates  
 
 ---
 
-### Trial 4: Counterflow, Hot Max / Cold Low
-- Most thermodynamically effective configuration
-- Strong temperature gradient maintained throughout exchanger
-- Cold outlet temperature increases significantly
-- Entropy generation minimized relative to other configurations
+### Trial 4: Counterflow, Hot Maximum / Cold Low Flow
+- Most thermodynamically effective configuration tested  
+- Strong temperature gradient maintained along the exchanger length  
+- Significant increase in cold outlet temperature  
+- Entropy generation minimized relative to other configurations  
 
 ---
 
-*These balance equations capture the essential thermodynamic behavior of the heat exchanger and explain how changes in flow configuration and mass flow rates influence performance.*
+*These balance equations capture the essential thermodynamic behavior of the heat exchanger and explain how changes in flow configuration and operating conditions influence system performance.*
+

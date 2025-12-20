@@ -87,4 +87,13 @@ Assumptions:
 
 These system diagrams illustrate how changes in flow direction and mass flow rates alter the temperature gradients and heat transfer effectiveness of the heat exchanger.
 
+## Experimental Setup
+
+![Heat exchanger experimental setup showing hot and cold reservoirs, tubing, and pumps](IMG_0756.png)
+*Figure 1: Heat exchanger experimental setup with hot and cold water reservoirs.*
+
+![Alternate view of the heat exchanger highlighting tubing configuration and temperature probes](IMG_0757.png)
+*Figure 2: Alternate view showing tubing connections and instrumentation.*
+
+
 

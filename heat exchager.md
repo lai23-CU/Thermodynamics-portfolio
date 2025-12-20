@@ -238,3 +238,27 @@ Operating conditions, especially fluid flow rates, also had a major effect. Chan
 Some real-world factors also influenced how the system performed. In a few trials, the flexible tubing bent and restricted fluid flow, even when the flow setting was at maximum. This unexpected resistance reduced the actual flow rate, lowered convective heat transfer, and introduced uncertainty into the data. These issues show just how sensitive heat exchanger performance can be to physical conditions, underlining the need to maintain clear and unobstructed flow paths in actual designs.
 
 In summary, both flow direction and operating conditions need to be carefully chosen to get the best performance from a heat exchanger. Counterflow setups tend to deliver better efficiency and generate less entropy, while properly balancing flow rates between the fluids can boost heat transfer without causing significant inefficiencies. These findings reflect the same trade-offs engineers face in real-world heat exchanger design and operation.
+
+## Heat Exchanger Effectiveness Discussion (ε)
+Heat exchanger effectiveness, ε, reflects how efficiently a heat exchanger transfers thermal energy compared to the maximum possible heat transfer under ideal conditions. While this mini-lab didn’t involve calculating effectiveness numerically, we observed some clear trends based on flow configuration and operating conditions.
+
+One of the most consistent patterns was that counterflow setups outperformed parallel flow configurations in terms of effectiveness. In counterflow, the hot and cold fluids move in opposite directions, which helps maintain a larger temperature difference along the entire length of the exchanger. This steady temperature gradient creates a stronger driving force for heat transfer and enables the cold fluid to get closer to the temperature of the incoming hot fluid.
+
+On the other hand, parallel flow resulted in noticeably lower effectiveness. In this setup, both fluids enter from the same end, leading to a sharp temperature difference only at the inlet. As they flow side-by-side, their temperatures quickly converge, reducing the temperature gradient and limiting heat transfer further downstream.
+
+We also noticed that flow imbalance significantly impacted effectiveness. When the cold-side flow rate was reduced while the hot-side remained high, the cold fluid had more time to absorb heat, resulting in a greater temperature increase per unit mass. However, this mismatch in heat capacity rates also led to less effective and more uneven heat transfer, increasing irreversibilities. These observations are consistent with classical heat exchanger theory, which suggests that maintaining strong temperature gradients and matching heat capacity rates lead to better performance.
+
+---
+
+## Sources of Error and Experimental Limitations
+Several non-ideal factors likely influenced the experimental results and introduced error.
+
+First, heat loss to the environment was unavoidable. The insulation on the exchanger, tubing, and reservoirs wasn’t perfect, so some energy escaped to the surroundings, breaking the ideal assumption of an adiabatic system.
+
+Temperature measurement was another source of uncertainty. The sensors took time to adjust to the fluid temperature, and small fluctuations were common during readings. Additionally, sensor placement may not have accurately captured the bulk fluid temperature, especially near inlets and outlets.
+
+We also faced issues with mass flow rate accuracy. Instead of exact measurements, we relied on qualitative settings like “low” or “maximum,” which made it difficult to determine actual flow values. In some cases, tubing was bent or pinched, further restricting flow and altering the intended setup.
+
+Finally, achieving true steady-state conditions proved difficult. Since the reservoirs had limited volume, their temperatures changed over time as water was recirculated, resulting in quasi-steady rather than fully steady-state operation.
+
+Despite these challenges, the trends we observed matched expectations from thermodynamic theory and offered valuable insight into how different factors affect heat exchanger performance.
